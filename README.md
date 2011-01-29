@@ -2,6 +2,7 @@
 This branch holds all stable versions of the minified **gui-dat**
 
 In order to minify add the following files to one file:
+
 + gui.js
 + controllers/slider.js
 + controllers/controller.js

@@ -13,12 +13,12 @@ In order to minify add the following files to one file:
 + compress gui.css
 + add the compressed css into GUI constructor like so
 
-    var head = document.getElementsByTagName('head')[0],
+        var head = document.getElementsByTagName('head')[0],
 	    style = document.createElement('style'),
         css = "COMPRESSED-STYLE";
-    style.type = 'text/css';
-    style.innerHTML = css;
-    head.appendChild(style);
+        style.type = 'text/css';
+        style.innerHTML = css;
+        head.appendChild(style);
 
 + minify with desired compressor
 
